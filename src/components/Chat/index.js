@@ -40,11 +40,11 @@ class Review extends Component {
           <table>
             <tbody>
               <tr>
-                <td>Name</td>
+                <td>Name:</td>
                 <td>{name.value}</td>
               </tr>
               <tr>
-                <td>The...</td>
+                <td>Title:</td>
                 <td>{role.value}</td>
               </tr>
             </tbody>
@@ -92,15 +92,15 @@ class Review extends Component {
           {
             id: '3',
             message: 'Nice to meet you, {previousValue}!',
+            trigger: 'who',
+          },
+          {
+            id: 'who',
+            message: 'What is your relationship to Juliette?',
             trigger: 'role',
           },
           {
             id: 'role',
-            message: 'What is your relationship to Juliette?',
-            trigger: 'whoisthis',
-          },
-          {
-            id: 'whoisthis',
             options: [
               { value: 'recruiter', label: 'looking to hire her!', trigger: 'a' },
               { value: 'programmer', label: 'fellow programmer', trigger: 'b' },
@@ -156,7 +156,7 @@ class Review extends Component {
             id: 'review',
             component: <Review />,
             asMessage: true,
-            trigger: 'thatsall',
+            trigger: 'end',
           },
           {
             id: 'thatsall',
@@ -167,7 +167,7 @@ class Review extends Component {
             id: 'thatsalloptions',
             options: [
                 { value: 'startover', label: 'start over', trigger: '1' },
-              { value: 'imdone', label: "I'm done", trigger: 'end' },
+              { value: 'imdone', label: "I'm done", trigger: 'review' },
             ]
           },
           {
