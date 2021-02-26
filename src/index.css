@@ -1,5 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Chicle&family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Rubik+Mono+One&display=swap');
+
 * {
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-transform: lowercase;

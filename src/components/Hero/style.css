@@ -1,0 +1,18 @@
+
+.hero {
+  align-content: center;
+  position: relative;
+  height: 400px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.hero h1, .hero h2 {
+  color: white;
+}
+
+.hero h1 {
+  font-size: 60px;
+  padding-top: 140px;
+  margin-top: 0;
+}
+

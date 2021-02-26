@@ -1,0 +1,11 @@
+.MyNav {
+    background-color: transparent;
+}
+
+
+.navbar-light .navbar-brand {
+    color: white!important;
+}
+a {
+    color: white!important;
+}

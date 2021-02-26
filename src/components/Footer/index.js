@@ -1,10 +1,13 @@
 import React from "react";
 import "./style.css";
+import TypedName from "../TypedName";
 
-function Footer() {
+function Footer(props) {
   return (
     <footer className="footer">
-      <span>Wikipedia Searcher</span>
+      	{props.children}
+      <span>juliette gondon</span>
+      	<TypedName />
     </footer>
   );
 }
