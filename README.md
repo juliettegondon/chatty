@@ -1,4 +1,4 @@
-# Chatty (https://juliettegondon.github.io/chatty/)
+# [Chatty] (https://juliettegondon.github.io/chatty/)
 Coded my a ChatBot with React for those getting to know me... hehe. 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
   * Technologies used: 
