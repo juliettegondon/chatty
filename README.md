@@ -1,5 +1,5 @@
 # [Chatty](https://juliettegondon.github.io/chatty/)
-Coded my a Chatbot with React for those getting to know me... hehe. 
+Coded my a Chatbot with React for those getting to know me... just having fun with react features, and putting my love for styling to use! 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
   * Technologies used: 
